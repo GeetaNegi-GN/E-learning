@@ -1,0 +1,38 @@
+/*stylesheet for programming course main page*/
+body{
+    background:lightsteelblue;
+    padding: 0px;
+    margin: 0px;
+}
+.main {
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.service {
+    background: #e68585;
+    padding: 4px 40px 21px;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 0 0 25px -5px rgb(253 253 253);
+    transition: transform .8s;
+    height: 350px;
+    width: 190px;
+    margin: -52px 5px 15px -130px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.service h1 {
+    height: 35px;
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 180px;
+}

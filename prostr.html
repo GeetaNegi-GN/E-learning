@@ -1,0 +1,274 @@
+<!--C# second content-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/course.css">
+
+    <title>C#</title>
+</head>
+
+
+
+<body>
+
+    <div class="container-xxl my-md-4 bd-layout">
+        <aside class="bd-sidebar">
+            <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+                <ul class="list-unstyled mb-0 py-3 pt-md-1">
+                    <li class="mb-1">
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#getting-started-collapse" aria-expanded="false">
+                            C#
+                        </button>
+
+                        <div class="collapse" id="getting-started-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="cs.html" class="d-inline-flex align-items-center rounded">Introduction</a>
+                                </li>
+                                <li><a href="prostr.html" target="_top" class="active"
+                                        class="d-inline-flex align-items-center rounded">Program Structure</a></li>
+                                <li><a href="snt.html" class="d-inline-flex align-items-center rounded">Syntex</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Output &amp;
+                                        Input</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Variables</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">String</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Loops</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Function</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#C#-Classes" aria-expanded="false">
+                            Class & Object
+                        </button>
+
+                        <div class="collapse" id="C#-Class-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">C# OOP</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Classes &amp;
+                                        Objects</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Class
+                                        Methods</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Encapsulation</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Abstraction</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Polymorphism</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Inheritance</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <hr>
+                            <hr>
+                            <hr>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+
+
+        <main class="bd-main order-1" id="sntx">
+            <div class="bd-intro ps-lg-4">
+                <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+                    <h1 class="bd-title" id="syntex">"Program Structure in C#"
+                        <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#syntex"
+                            style="padding-left: 0.375em;">
+                    </h1>
+                    <div class="nextprev">
+                        <a class="left wntd" href="cs.html"><strong>❮ Previous</strong></a>
+                        <a class="right wntd" href="#"><strong>Next ❯</strong></a>
+                    </div>
+                </div>
+                <hr>
+                <p>Before we study basic building blocks of the C# programming language, let us look at a bare minimum
+                    C# program structure so that we can take it as a reference in upcoming chapters.</p>
+            </div>
+
+
+            <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+                <strong class="d-block h6 my-2 pb-2 border-bottom">What's On this page</strong>
+                <nav id="TableOfContents" style="font-size: 15px;">
+                    <ul>
+                        <li><a href="#syntex">Program Structure in C#</a></li>
+                        <li><a href="#c++1">Creating Hello World Program</a></li>
+                        <li><a href="#c++2">Compiling and Executing the Program</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="bd-content ps-lg-4">
+                <h2 id="c++1">"Creating Hello World Program"
+                    <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#c++1"
+                        style="padding-left: 0.375em;">
+                    </a>
+                </h2>
+                <p>A C# program consists of the following parts −</p>
+                <ul class="bd-leadl">
+                    <li>Namespace declaration</li>
+                    <li>A class</li>
+                    <li>Class methods</li>
+                    <li>Class attributes</li>
+                    <li>A Main method</li>
+                    <li>Statements and Expressions</li>
+                    <li>Comments</li>
+                </ul>
+                <p>Let us look at a simple code that prints the words "Hello World" −</p>
+                <div>
+                    <div class="op123">
+                        <h3>Example</h3>
+                        <img src="img/1#.jpg" alt="">
+                        <br>
+                        <p>When this code is compiled and executed, it produces the following result −</p>
+                        <b>Output</b><br>
+                        <pre>Hello World </pre>
+                    </div>
+                </div>
+                <p>Let us look at the various parts of the given program −</p>
+                <ul class="bd-leadl">
+                    <li>
+                        <p>The first line of the program <b>using System;</b> - the <b>using</b> keyword is used to
+                            include the <b>System </b> namespace in the program. A program generally has multiple
+                            <b>using</b> statements.</p>
+                    </li>
+                    <li>
+                        <p>The next line has the <b>namespace</b> declaration. A <b>namespace</b> is a collection of
+                            classes. The <i>HelloWorldApplication</i> namespace contains the class <i>HelloWorld</i>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>The next line has a <b>class</b> declaration, the class <i>HelloWorld</i> contains the data
+                            and method definitions that your program uses. Classes generally contain multiple methods.
+                            Methods define the behavior of the class. However, the <i>HelloWorld</i> class has only one
+                            method <b> Main</b>.</p>
+                    </li>
+                    <li>
+                        <p>The next line defines the <b>Main</b> method, which is the <b>entry point</b> for all C#
+                            programs. The <b>Main </b> method states what the class does when executed.</p>
+                    </li>
+                    <li>
+                        <p>The next line /*...*/ is ignored by the compiler and it is put to add <b> comments</b> in the
+                            program.</p>
+                    </li>
+                    <li>
+                        <p>The Main method specifies its behavior with the statement <b>Console.WriteLine("Hello
+                                World");</b>
+                        </p>
+                        <p><i>WriteLine</i> is a method of the <i>Console</i> class defined in the <i>System</i>
+                            namespace. This statement causes the message "Hello, World!" to be displayed on the screen.
+                        </p>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p>The last line <b>Console.ReadKey();</b> is for the VS.NET Users. This makes the program wait
+                            for a key press and it prevents the screen from running and closing quickly when the program
+                            is launched from Visual Studio .NET.</p>
+                    </li>
+                </ul>
+                <p>It is worth to note the following points −</p>
+                <ul class="bd-leadl">
+                    <li>
+                        <p>C# is case sensitive.</p>
+                    </li>
+                    <li>
+                        <p>All statements and expression must end with a semicolon (;).</p>
+                    </li>
+                    <li>
+                        <p>The program execution starts at the Main method.</p>
+                    </li>
+                    <li>
+                        <p>Unlike Java, program file name could be different from the class name.</p>
+                    </li>
+                </ul>
+
+
+
+                <hr>
+                <h2 id="c++2">"Compiling and Executing the Program"
+                    <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#c++2"
+                        style="padding-left: 0.375em;">
+                    </a>
+                </h2>
+                <p>If you are using Visual Studio.Net for compiling and executing C# programs, take the following steps
+                    −</p>
+                <ul class="bd-leadl">
+                    <li>
+                        <p>Start Visual Studio.</p>
+                    </li>
+                    <li>
+                        <p>On the menu bar, choose File -&gt; New -&gt; Project.</p>
+                    </li>
+                    <li>
+                        <p>Choose Visual C# from templates, and then choose Windows.</p>
+                    </li>
+                    <li>
+                        <p>Choose Console Application.</p>
+                    </li>
+                    <li>
+                        <p>Specify a name for your project and click OK button.</p>
+                    </li>
+                    <li>
+                        <p>This creates a new project in Solution Explorer.</p>
+                    </li>
+                    <li>
+                        <p>Write code in the Code Editor.</p>
+                    </li>
+                    <li>
+                        <p>Click the Run button or press F5 key to execute the project. A Command Prompt window appears
+                            that contains the line Hello World.</p>
+                    </li>
+                </ul>
+                <p>You can compile a C# program by using the command-line instead of the Visual Studio IDE −</p>
+                <ul class="bd-leadl">
+                    <li><p>Open a text editor and add the above-mentioned code.</p></li>
+                    <li><p>Save the file as <b>helloworld.cs</b></p></li>
+                    <li><p>Open the command prompt tool and go to the directory where you saved the file.</p></li>
+                    <li><p>Type <b>csc helloworld.cs</b> and press enter to compile your code.</p></li>
+                    <li><p>If there are no errors in your code, the command prompt takes you to the next line and generates <b>helloworld.exe</b> executable file.</p></li>
+                    <li><p>Type <b>helloworld</b> to execute your program.</p></li>
+                    <li><p>You can see the output Hello World printed on the screen.</p></li>
+                    </ul>
+
+
+
+            </div>
+            <div class="nextprev">
+                <a class="left wntd" href="cs.html"><strong>❮ Previous</strong></a>
+                <a class="right wntd" href="#.html"><strong>Next ❯</strong></a>
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+
+
+
+    <!-- Jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>

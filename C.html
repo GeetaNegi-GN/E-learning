@@ -1,0 +1,255 @@
+<!--C programming introduction-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/course.css">
+    <title>C</title>
+</head>
+<body>
+    <div class="container-xxl my-md-4 bd-layout">
+        <aside class="bd-sidebar">
+            <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+                <ul class="list-unstyled mb-0 py-3 pt-md-1">
+                    <li class="mb-1">
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#getting-started-collapse" aria-expanded="false">
+                            C
+                        </button>
+                        <div class="collapse" id="getting-started-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="c.html" target="_top" class="active"
+                                        class="d-inline-flex align-items-center rounded">Introduction</a></li>
+                                <li><a href="c_1.html" class="d-inline-flex align-items-center rounded">Elements of C</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Output &amp;
+                                        Input</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Variables</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">String</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Array</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Loops</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#C++-Classes" aria-expanded="false">
+                            Functions
+                        </button>
+                        <div class="collapse" id="C++-Class-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Library Functions</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">User Defined
+                                        Functions</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Function Definition</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Function Call</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Return Function</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Parameter &
+                                        Argument</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Function
+                                        Declaration</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#C++-Classes" aria-expanded="false">
+                            Recursion
+                        </button>
+                        <div class="collapse" id="C++-Class-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Writing a Recursive
+                                        <br>
+                                        Function</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Flow of Control in <br>
+                                        Recursive Function</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Implementation of <br>
+                                        Recursion</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Tail Recursion</a>
+                                </li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Indirect and Direct
+                                        <br>
+                                        Recursion</a>
+                                </li>
+                            </ul>
+                            <hr>
+                            <hr>
+                            <hr>
+                            <hr>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="bd-main order-1" id="sntx">
+            <div class="bd-intro ps-lg-4">
+                <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+                    <h1 class="bd-title" id="syntex">"Introduction to C"
+                        <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#syntex"
+                            style="padding-left: 0.375em;">
+                    </h1>
+                    <div class="nextprev">
+                        <a class="left wntd" href="programming.html"><strong>❮ Home</strong></a>
+                        <a class="right wntd" href="#"><strong>Next ❯</strong></a>
+                    </div>
+                </div>
+                <hr>
+                <p>C is a procedural programming language. It was initially developed by Dennis Ritchie in the year
+                    1972. It was mainly developed as a system programming language to write an operating system. The
+                    main features of the C language include low-level memory access, a simple set of keywords, and a
+                    clean style, these features make C language suitable for system programmings like an operating
+                    system or compiler development.&nbsp;<br>Many later languages have borrowed syntax/features directly
+                    or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages
+                    are mainly based on the C language. C++ is nearly a superset of C language (Few programs may compile
+                    in C, but not in C++).&nbsp;</p>
+            </div>
+            <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+                <strong class="d-block h6 my-2 pb-2 border-bottom">What's On this page</strong>
+                <nav id="TableOfContents" style="font-size: 15px;">
+                    <ul>
+                        <li><a href="#syntex">Introduction to C </a></li>
+                        <li><a href="#c++1">Beginning with C Programming</a></li>
+                        <li><a href="#c++2">Writing First Program</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bd-content ps-lg-4">
+                <h2 id="c++1">"Beginning with C Programming:"
+                    <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#c++1"
+                        style="padding-left: 0.375em;">
+                    </a>
+                </h2>
+                <ol class="bd-leadl">
+                    <li><strong>Structure of a C program</strong>&nbsp;<br>After the above discussion, we can formally
+                        assess the structure of a C program. By structure, it is meant that any program can be written
+                        in this structure only. Writing a C program in any other structure will hence lead to a
+                        Compilation Error.<br>The structure of a C program is as follows:<br>&nbsp;</li>
+                </ol>
+                <img src="img/c1.jpg" width="100%" alt="">
+                <ol class="bd-leadl">
+                    <p><strong>The components of the above structure are:&nbsp;</strong></p>
+                    <li>
+                        <ol>
+                            <li><strong>Header Files Inclusion</strong>: The first and foremost component is the
+                                inclusion of the Header files in a C program.&nbsp;<br>A header file is a file with
+                                extension .h which contains C function declarations and macro definitions to be shared
+                                between several source files.<br>Some of C Header files:&nbsp;
+                                <ul>
+                                    <li>stddef.h – Defines several useful types and macros.</li>
+                                    <li>stdint.h – Defines exact width integer types.</li>
+                                    <li>stdio.h – Defines core input and output functions</li>
+                                    <li>stdlib.h – Defines numeric conversion functions, pseudo-random network
+                                        generator, memory allocation</li>
+                                    <li>string.h – Defines string handling functions</li>
+                                    <li>math.h – Defines common mathematical functions</li>
+                                </ul>
+                            </li><br>
+                            <li><strong>Main Method Declaration:</strong> The next part of a C program is to declare the
+                                main() function. The syntax to declare the main function is:<br><strong>Syntax to
+                                    Declare the</strong> <strong>main method:</strong>&nbsp;<br>&nbsp;</li>
+                        </ol>
+                    </li>
+                </ol>
+                <pre>int main()<br>{}</pre>
+                <ol class="bd-leadl">
+                    <li><strong>Variable Declaration:</strong> The next part of any C program is the variable
+                        declaration. It refers to the variables that are to be used in the function. Please note that in
+                        the C program, no variable can be used without being declared. Also in a C program, the
+                        variables are to be declared before any operation in the
+                        function.<br><strong>Example:</strong>&nbsp;<br>&nbsp;</li>
+                </ol>
+                <pre>int main()<br>{<br>&emsp;&emsp;<strong>int a;</strong><br>.<br>.</pre>
+                <ol class="bd-leadl">
+                    <li><strong>Body:</strong> The body of a function in the C program, refers to the operations that
+                        are performed in the functions. It can be anything like manipulations, searching, sorting,
+                        printing, etc.<br><strong>Example:</strong>&nbsp;<br>&nbsp;</li>
+                </ol>
+                <pre>int main()<br>{<br>&emsp;&emsp;<strong>int a;</strong><br><br>&emsp;&emsp;<strong>printf("%d", a);</strong><br>.<br>.</pre>
+                <ol class="bd-leadl">
+                    <li><strong>Return Statement:</strong> The last part of any C program is the return statement. The
+                        return statement refers to the returning of the values from a function. This return statement
+                        and return value depend upon the return type of the function. For example, if the return type is
+                        void, then there will be no return statement. In any other case, there will be a return
+                        statement and the return value will be of the type of the specified return
+                        type.<br><strong>Example:</strong>&nbsp;<br>&nbsp;</li>
+                </ol>
+                <pre>int main()<br>{<br>    int a;<br><br>    printf("%d", a);<br><br>    <strong>return 0;</strong><br>}</pre>
+                <hr>
+                <h2 id="c++2">"Writing First Program"
+                    <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#c++2"
+                        style="padding-left: 0.375em;">
+                    </a>
+                </h2>
+                <ol class="bd-leadl">
+                    <li><strong>First Program:</strong>&nbsp;<br>Following is First Program in C<br>&nbsp;</li>
+                </ol>
+                <div class="op123">
+                    <h3>Example</h3>
+                    <img src="img/c2.jpg" alt="">
+                    <br>
+                    <b>Output</b><br>
+                    <img src="img/c3.jpg" alt="">
+                </div>
+                <ol class="bd-leadl">
+                    <p><strong>Let us analyze the program line by line.&nbsp;</strong></p>
+                    <li><i><strong>Line 1: [ #include &lt;stdio.h&gt;
+                                ]</strong></i> In a C program, all lines that start with <strong># </strong>are
+                        processed by a preprocessor which is a program
+                        invoked by the compiler. In a very basic term, the preprocessor takes a C program and
+                        produces another C program. The produced program has no lines starting with #, all such lines
+                        are processed by the preprocessor. In the above example, the preprocessor copies the
+                        preprocessed code of stdio.h to our file. The .h files are called header files in C. These
+                        header files generally contain declarations of functions. We need stdio.h for the function
+                        printf() used in the program.&nbsp;<br><i><strong>Line 2 [ int main(void) ]</strong></i> There
+                        must be a starting point from where execution of compiled C program begins. In C, the execution
+                        typically begins with the first line of main(). The void written in brackets indicates that the
+                        main doesn’t take any parameter (See this for more
+                        details). main() can be written to take parameters also. We will be covering that in future
+                        posts.&nbsp;<br>The int was written before main indicates return type of main(). The value
+                        returned by main indicates the status of program termination. See this post for more details
+                        on the return type.<br><i><strong>Line 3 and 6: [ { and } ]</strong></i> In C language, a pair
+                        of curly brackets define scope and are mainly used in functions and control statements like if,
+                        else, loops. All functions must start and end with curly brackets.&nbsp;<br><i><strong>Line 4 [
+                                printf(“GeeksQuiz”); ]</strong></i> printf() is a standard library
+                        function to print something on standard output. The semicolon at the end of printf indicates
+                        line termination. In C, a semicolon is always used to indicate end of a
+                        statement.&nbsp;<br><i><strong>Line 5 [ return 0; ]</strong></i> The return statement returns
+                        the value from main(). The returned value may be used by an operating system to know the
+                        termination status of your program. The value 0 typically means successful
+                        termination.&nbsp;<br>&nbsp;</li>
+                    <li><strong>How to execute the above program:</strong>&nbsp;<br>In order to execute the above
+                        program, we need to have a compiler to compile and run our programs.
+                        can be used to start C without installing a compiler.&nbsp;<p><i><strong>Windows:</strong></i>
+                            There are many compilers available freely for the compilation of C programs like Code Blocks
+                            and Dev-CPP. &nbsp; We strongly recommend
+                            Code Blocks.<br><i><strong>Linux:</strong></i> For Linux, gcc comes bundled with
+                            Linux, &nbsp;Code Blocks can also be used with Linux.&nbsp;<br>&nbsp;</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="nextprev">
+                <a class="left wntd" href="programming.html"><strong>❮ Home</strong></a>
+                <a class="right wntd" href="#"><strong>Next ❯</strong></a>
+            </div>
+        </main>
+    </div>
+    <!-- Jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>

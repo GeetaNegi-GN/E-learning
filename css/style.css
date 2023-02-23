@@ -1,0 +1,522 @@
+/*stylesheet for homepage*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+ color: springgreen;
+ font-size: 15pt;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo img{
+width: 33%;
+border: 3px solid white;
+border-radius: 50px ;
+margin: 6px;
+}
+.navbar{
+display: flex ; 
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ z-index: 1;
+ cursor: pointer ;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 20px 25px;
+
+}
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: 'ubuntu',sans-serif;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey ;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 95vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 53%;
+margin: auto;
+height: 73%;
+} 
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondhalf{
+    width: 30%;  
+}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 40px;
+    margin-top: 85px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+   padding: 8px 20px;
+   margin: 7px 3px;
+   border: 2px solid white;
+   border-radius: 8px;  
+   background: none;
+   color: white;
+   font-family:'ubuntu',sans-serif;
+   font-size: 16px;
+} 
+ .btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+}
+.btn-about{
+    color: black;
+    border: 2px solid grey;
+}
+.about{
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+.about .image{
+    flex:1 1 40rem;
+}
+
+.about .image img{
+   
+    width:100%;
+}
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h3{
+    font-size: 3.5rem;
+    color: black;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: darkblue;
+    padding:1rem 0;
+}
+
+
+body {
+    background-color:rgba(0,0,0,0.5);
+    position: relative;
+}
+.services{
+    background-color: grey;
+}
+h1 {
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.service {
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index:0;
+    box-shadow: 0 0 25px -5px rgb(253, 253, 253);
+    transition: transform .8s;
+    height: 372px;
+    margin: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.service-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background:lightseagreen;
+    border: 18px solid rgb(240, 240, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h4 {
+    height: 35px;
+    width: 80%;
+    margin: 50px auto;
+    background: #111;
+    position: relative;
+}
+
+.service h4::after,
+.service h4::before {
+    content: '';
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.service h4::after {
+    background: linear-gradient(to right, #fff, rgb(240, 240, 20));
+    right: -5px;
+    top: -5px;
+}
+
+.service h4::before {
+    background: linear-gradient(to right, rgb(240, 240, 20), #fff);
+    left: -5px;
+    bottom: -5px;
+}
+
+.main:hover .service {
+    transform: translateY(-40px);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.service-colum {
+    flex: 3;
+    background: #111;
+}
+
+
+.team{
+    margin: 0;
+    font-family: tahoma;
+    height: 95vh;
+    background :lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team h2{
+    margin: -275px -275px 70px 275px;
+    
+    color:black;
+    }
+
+
+.container-card{
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    }
+
+    .card {
+    
+        padding: 23px 20px 20px;
+        margin: 63px -23px auto -210px;;
+        margin-bottom: 30px;
+        background-color:lightseagreen;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 15px 13px 22px grey, -23px -13px 17px lightcyan;
+        width: 35%;
+    }
+
+    .card .picture {
+        display: inline-block;
+        height: 130px;
+        width: 130px;
+        z-index: 0;
+        position: relative;
+        border-radius: 20%;
+    }
+
+    .card .picture::before {
+        content: "";
+        width: 100%;
+        height: 0;
+        border-radius: 50%;
+        background-color: #1f1b1b;
+        position: absolute;
+        bottom: 135%;
+        right: 0;
+        left: 0;
+        opacity: 0.9;
+        transform: scale(3);
+        transition: all 0.3s linear 0s;
+    }
+
+    .card:hover .picture::before {
+        height: 100%;
+    }
+
+    .card .picture::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #1f1b1b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .card .picture img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .card:hover .picture img {
+        box-shadow: 0 0 0 14px #f7f5ec;
+        transform: scale(0.7);
+    }
+
+    .card .title {
+        display: block;
+        font-size: 15px;
+        color: #1f1b1b;
+        text-transform: capitalize;
+        margin: 5px 37px 0;
+    }
+
+    .card .main-content {
+        margin-bottom: -19px;
+    }
+
+    .card .main-content .name {
+        padding: 0;
+        margin: 8px;
+        text-transform: uppercase;
+    }
+
+    .card .social {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #1f1b1b;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .card:hover .social {
+        bottom: 0;
+    }
+
+    .card .social li {
+        display: inline-block;
+    }
+
+    .card .social li a {
+        display: block;
+        padding: 10px;
+        font-size: 17px;
+        color: white;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+    }
+
+    .card .social li a:hover {
+        color: #3e3b44;
+        background-color: #f7f5ec;
+        transition: 0.5s;
+    }
+
+
+    .skills {
+        text-align: left;
+        padding: 15px;
+    }
+
+    .skills ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .skills ul li {
+        border: 1px solid #1f1b1b;
+        border-radius: 2px;
+        display: inline-block;
+        font-size: 12px;
+        margin: 0 7px 7px 0;
+        padding: 7px;
+    }
+
+    .skills ul li:hover {
+        background: #1f1b1b;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+
+.contact{
+    background-color:cornsilk;
+    height: fit-content;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 5px;
+    font-family:'ubuntu',sans-serif;
+    font-size: 35px;
+}
+.contact h1{
+    text-align: center;
+    margin:1px;
+    color: black;
+    padding: 30px;
+    text-transform: uppercase;
+}
+.form{
+    max-width: 62%;
+    margin:20px 0px 0px 100px;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea{
+    height:120px;
+}
+.text-footer{
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'ubuntu',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.burger{
+    display: none;
+position: absolute;
+cursor:pointer;
+right: 5%;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width:973px){
+    .nav-list{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 470px;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .logo img {
+        width: 19px;
+        height: 18px;
+    }
+}
+

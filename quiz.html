@@ -1,0 +1,161 @@
+<!--QUIZ-->
+<!DOCTYPE html>
+<head>
+    
+    <title>Quiz</title>
+      <!-- Custom CSS file link -->
+      <link rel="stylesheet" href="css/course.css">
+      <script type="text/javascript" src="js/quiz.js"></script>
+      <style> 
+      #button{
+        background-color: black;
+        color:white;
+        font-size: 10px;
+        padding: 7px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container-xxl my-md-4 bd-layout">
+        <aside class="bd-sidebar">
+            <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
+                <ul class="list-unstyled mb-0 py-3 pt-md-1">
+                    <li class="mb-1">
+                        <button class="btn d-inline-flex align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#getting-started-collapse" aria-expanded="false">
+                            Quiz
+                        </button>
+
+                        <div class="collapse" id="getting-started-collapse">
+                            <ul class="list-unstyled fw-normal pb-1 small">
+                                <li><a href="quiz.html" target="_top" class="active"
+                                        class="d-inline-flex align-items-center rounded">C</a></li>
+                                <li><a href="#" target="_top"
+                                        class="d-inline-flex align-items-center rounded">C++</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">C#</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">HTML</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Javascript</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">CSS</a></li>
+                                <li><a href="#" class="d-inline-flex align-items-center rounded">Algorithm</a></li>
+                                
+                             
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+         
+<form name="quiz" id="quiz">
+    <center> <h1>C++ quiz</h1></center> 
+     <div>
+         <p>
+          1.Which of the following is the correct syntax to add the header file in the C++ program?
+         </p>
+         <p>
+            <input type="radio" name="ques1" value="A">A.#include<userdefined>
+         </p>
+         <p>
+             <input type="radio" name="ques1" value="B">B.#include "userdefined.h"
+         
+          </p>
+          <p>
+             <input type="radio" name="ques1" value="C">C.<include> "userdefined.h"
+         
+          </p> 
+          <p>
+             <input type="radio" name="ques1" value="D">D.Both A and B
+         
+          </p>
+     </div>
+     <div>
+         <p>
+             2. Which of the following is the correct syntax to print the message in C++ language?
+         </p>
+         <p>
+            <input type="radio" name="ques2" value="A">A.cout <<"Hello world!";
+ 
+         </p>
+         <p>
+             <input type="radio" name="ques2" value="B">B.Cout << Hello world! ;
+      
+          </p>
+          <p>
+             <input type="radio" name="ques2" value="C">C. Out <<"Hello world!;
+ 
+         
+          </p> 
+          <p>
+             <input type="radio" name="ques2" value="D">D.None of the above
+ 
+         
+          </p>
+     </div>
+     <div>
+         <p>
+             3.Which of the following is the address operator?
+         </p>
+         <p>
+            <input type="radio" name="ques3" value="A">A. @
+         </p>
+         <p>
+             <input type="radio" name="ques3" value="B">B. #
+         
+          </p>
+          <p>
+             <input type="radio" name="ques3" value="C">C. &
+         
+          </p> 
+          <p>
+             <input type="radio" name="ques3" value="D">D. %
+         
+          </p>
+     </div>
+     <div>
+     <p>
+             4. Which of the following is the original creator of the C++ language?
+         </p>
+         <p>
+            <input type="radio" name="ques4" value="A">A.Dennis Ritchie
+         </p>
+         <p>
+             <input type="radio" name="ques4" value="B">B.Ken Thompson
+         
+          </p>
+          <p>
+             <input type="radio" name="ques4" value="C">C.Bjarne Stroustrup
+         
+          </p> 
+          <p>
+             <input type="radio" name="ques4" value="D">D.Brian Kernighan
+         
+          </p>
+     </div>
+     <div>
+         <p>
+             5.C++ is a ___ type of language. 
+         </p>
+         <p>
+            <input type="radio" name="ques5" value="A">A. High-level Language
+         </p>
+         <p>
+             <input type="radio" name="ques5" value="B">B.  Low-level language
+         
+          </p>
+          <p>
+             <input type="radio" name="ques5" value="C">C.Middle-level language
+         
+          </p> 
+          <p>
+             <input type="radio" name="ques5" value="D">D. None of the above
+         
+          </p>
+     </div>
+     <input type="button" name="" value="done" id="button" onclick="check()">
+ </form>   
+ <center><p id="result"></p></center>
+ 
+</div>
+</body>
+</html>
